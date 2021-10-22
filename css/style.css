@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@500&family=Sacramento&display=swap');
+*
+{
+  box-sizing: border-box;
+  /* If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
+  margin: 0 ;
+  padding: 0 ;
+  color :#345B63;
+  font-family:  sans-serif;
+
+}
+
+li, a
+{
+  font-weight: 500 ;
+  font-family: "Montserrat", sans-serif;
+  color: #ecf0f1 ;
+  text-decoration:  none ;
+}
+
+h2
+{
+  font-family: "Merriweather", sans-serif;
+  line-height: 1.5;
+  font-size: 2rem;
+
+}
+
+header
+{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #111111 ;
+}
+
+.logo
+{
+  cursor:pointer;
+  width: 12% ;
+  margin-right: auto;
+}
+
+.nav_links
+{
+  list-style: none;
+}
+
+.nav_links li
+{
+  display: inline-block;
+  margin: 0 20px ;
+}
+
+
+.nav_links li a:hover
+{
+  color:#0088f9 ;
+}
+
+#top-container
+{
+  padding: 5% 3% ;
+  text-align:  center;
+  background-color: #D4ECDD ;
+}
+
+
+.op-img
+{
+  display: block ;
+  width: 70%;
+  padding: 20px ;
+  margin: auto;
+}
+
+#middle-container
+{
+  background-color: #69DADB;
+    padding: 4% 2% ;
+    color:090910;
+}
+
+.row
+{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+}
+.col
+{
+  /* width 33.3% ; */
+  text-align: center;
+  padding: 2% ;
+}
+
+.d-heading
+{
+  padding-bottom: 10% ;
+  font-size: 1.5rem;
+}
+
+.d-icon
+{
+  font-size: 7.5rem ;
+  margin: 5%;
+}
+
+
+.btn {
+  background: #3f4e57;
+  background-image: -webkit-linear-gradient(top, #3f4e57, #586066);
+  background-image: -moz-linear-gradient(top, #3f4e57, #586066);
+  background-image: -ms-linear-gradient(top, #3f4e57, #586066);
+  background-image: -o-linear-gradient(top, #3f4e57, #586066);
+  background-image: linear-gradient(to bottom, #3f4e57, #586066);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-style: none ;
+  margin: 5%;
+}
+
+.btn:hover {
+  background: #005d96;
+  text-decoration: none;
+}
+
+#middle-container .mid
+{
+
+  border-left-style: solid;
+  border-right-style: solid;
+
+}
+
+#middle-container .d-heading
+{
+  color:  #eeeeee;
+}
+
+#bottom-container
+{
+    padding: 4% 2% ;
+  background-color: #D4ECDD ;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+ }
+
+
+footer
+{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px ;
+}
+
+.copyright
+{
+  margin-right: auto;
+}
+
+.foot-i
+{
+  padding: 10px;
+  font-size: 1.5rem ;
+}
+
+.para
+{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.2rem;
+  line-height: 1.5rem ;
+  padding: 1% , 10% ;
+}
+
+.para-1
+{
+  padding: 3% 20% ;
+}
+.para-2
+{
+  font-size: 1rem;
+  line-height: 1.2rem ;
+  padding: 0 5% ;
+    text-align: center;
+    color: #fff;
+}
+
+i:hover
+{
+  color: #FE8F8F;
+}
